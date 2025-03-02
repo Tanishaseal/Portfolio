@@ -1,0 +1,90 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero1
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+.logo
+{
+    width: 25%;
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 40px;
+    transform: translate(50%, 10%);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.qualification, .activity {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.qualification h3, .activity h3 {
+    color: #16a085;
+    margin-bottom: 5px;
+}
+
+.qualification p, .activity p {
+    font-size: 16px;
+    color: #333;
+}
+
+.qualification span {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.extracurricular {
+    background: #e3f2fd;
+}
